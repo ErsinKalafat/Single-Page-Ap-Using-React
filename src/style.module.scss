@@ -1,0 +1,138 @@
+$butonYaziBoyutu: 12px;
+$menuButon: #b47a56;
+$loginButonu: #7a3130;
+
+
+.navigationbar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  background: #7a3130;
+  box-shadow: 5px 5px 5px #ef6c6c;
+  height: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigationbar {
+    height: 20px;
+  }
+
+  .buton {
+    background-color: $menuButon;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+    padding: 1px 10px 1px 10px;
+    border: none;
+    margin-left: 50px;
+    font-size: 10px;
+    width: 30px;
+  }
+
+  div .logo {
+    color: white;
+    font-size: 15px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+.logo {
+  color: white;
+  font-size: 30px;
+  width: 50%;
+}
+
+
+.butongrubu {
+  width: 35%;
+}
+
+.loginbutton {
+  background-color: $loginButonu;
+  cursor: pointer;
+  color: white;
+  font-size: $butonYaziBoyutu;
+  font-weight: bold;
+  padding: 7px 40px 1px 25px;
+  border: none;
+  width: 15%;
+  float: right;
+}
+
+.kullaniciadi {
+  background-color: $loginButonu;
+  cursor: pointer;
+  color: #8dff83;
+  font-size: $butonYaziBoyutu;
+  font-weight: bold;
+  padding: 0 40px 1px 25px;
+  border: none;
+  width: 40%;
+  float: right;
+}
+
+.loginform {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.modal {
+  width: 20%;
+  padding: 30px 30px 55px 30px;
+  background: white;
+  border-width: 1px;
+  border-radius: 10px;
+  position: fixed;
+  box-shadow: 5px 5px 5px #ffc3bc;
+}
+
+.contactform {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form input, select {
+  margin : 10px;
+  padding: 10px;
+}
+
+
+.kapatbutton {
+  background-color: #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  color: darkred;
+  font-size: $butonYaziBoyutu;
+  font-weight: bold;
+  height: 40px;
+  padding: 1px 25px 1px 25px;
+  border: darkred ;
+  border-style: solid;
+  border-width: 1px;
+  float: right;
+  margin-top: 10px;
+}
+
+
+.buton {
+  background-color: $menuButon;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: $butonYaziBoyutu;
+  font-weight: bold;
+  height: 40px;
+  padding: 1px 25px 1px 25px;
+  border: none;
+  margin-left: 10px;
+}
